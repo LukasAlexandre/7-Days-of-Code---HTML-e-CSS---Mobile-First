@@ -1,0 +1,13 @@
+@import url(header.css);
+@import url(section.css);
+:root{
+    --cor-titulo-perfil: #464646;
+    --paragrafo: #A3A3A3;
+    --cor-de-fundo: #F7F7F7; 
+    --fonte-principal: "Montserrat", sans-serif;
+    --cor-branca: #ffffff;
+}
+body {
+    font-family: 'Montserrat', sans-serif; 
+    ;
+}

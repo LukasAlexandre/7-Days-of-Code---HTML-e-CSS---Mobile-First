@@ -1,0 +1,112 @@
+.dia-section {
+    padding: 0.5em 0.5em 0 0.5em;
+    background: var(--cor-de-fundo);
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.box-central {
+    background-color: var(--cor-de-fundo);
+    padding: 0.5em;
+}
+
+.box {
+    margin: 1em;
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.section-1-img {
+    display: block;
+    border-radius: 80px;
+    height: 50px;
+    width: auto;
+    margin: auto;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.2fr;
+    grid-template-rows: 70px;
+    grid-gap: 10px;
+    position: relative;
+    border-bottom: 5px solid var(--cor-de-fundo);
+    padding: 0.5em;
+}
+
+.box-1::after {
+    content: '';
+    /* Importante para o pseudo-elemento ::after */
+    position: absolute;
+    /* Define a posição do pseudo-elemento */
+    bottom: 0;
+    /* Define o posicionamento na parte inferior do elemento pai */
+    left: 0;
+    /* Define o posicionamento na borda esquerda do elemento pai */
+    width: 100%;
+    /* Faz a linha estender por toda a largura do elemento pai */
+    height: 1px;
+    /* Define a altura da linha */
+}
+
+.organizar-consulta-remoto {
+    display: flex;
+}
+
+.paragrafo-consulta {
+    padding-left: 0.5em;
+    margin: 0%;
+    color: var(--paragrafo);
+}
+
+.nome-perfil {
+    color: var(--cor-titulo-perfil);
+    margin-bottom: 1%;
+}
+
+.icon-message {
+    height: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.box-2 {
+    padding: 0.7em;
+}
+
+.hora-button-1 {
+    margin: 0;
+    font-size: 16px;
+    padding: 0.4em;
+    font-weight: 500;
+}
+.button-box-2{
+    display: flex;
+}
+.ligar-por-video{
+    padding: 1em;
+    margin: auto;
+    background-color: #FFB050;
+    color: var(--cor-branca);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.ligar-por-audio{
+    padding: 1em;
+    margin: auto;
+    border: 3px solid #F7F7F7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ligar-por-video-2{
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+    background-color: #4894FF;
+    color: var(--cor-branca);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
